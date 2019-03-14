@@ -1,0 +1,15 @@
+name: paramtools-ex
+channels:
+  - conda-forge
+  - pslmodels
+dependencies:
+  - paramtools
+  - "marshmallow>=3.0.0rc4"
+  - "numpy>=1.13"
+  - "python-dateutil>=2.8.0"
+  - pytest
+  - taxcalc
+  - pip:
+    - pre-commit
+    - black
+    - flake8
